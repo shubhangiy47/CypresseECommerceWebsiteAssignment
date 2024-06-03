@@ -1,0 +1,128 @@
+[
+  {
+    "description": "  I want to log into my account\n  I want to select product on three criteria\n  I want to add to cart\n  I want to checkout and confirm order",
+    "keyword": "Feature",
+    "name": "Buy items on e-commerce webiste",
+    "line": 1,
+    "id": "buy-items-on-e-commerce-webiste",
+    "tags": [],
+    "uri": "buyItem.feature",
+    "elements": [
+      {
+        "id": "buy-items-on-e-commerce-webiste;login-and-add-products-to-cart",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Login and add products to cart",
+        "tags": [
+          {
+            "name": "@e2e",
+            "line": 8
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "User lauches the e-commerce website",
+            "result": {
+              "status": "passed",
+              "duration": 4607000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "User logins in with username and password",
+            "result": {
+              "status": "passed",
+              "duration": 2206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "User should see text \" My Account\" and username \"test fn\"",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "User adds a product \"Skinsheen Bronzer Stick\" of category \"Makeup\" to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 4174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "User should see \"Skinsheen Bronzer Stick\" in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "User adds a product \"ck IN2U Eau De Toilette Spray for Him\" of category \"fragrance\" to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 3913000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "User should see \"ck IN2U Eau De Toilette Spray for Him\" in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 45000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User adds a product \"Curls to straight Shampoo\" of category \"shampoo\" to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 3343000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "User should see \"Curls to straight Shampoo\" in the cart",
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User should able to checkout the cart",
+            "result": {
+              "status": "passed",
+              "duration": 2736000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
